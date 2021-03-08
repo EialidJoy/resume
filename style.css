@@ -1,0 +1,313 @@
+body{
+	background-color: #FEFEFA;
+
+	margin: 0%
+	padding-left:0%;
+	font-family: 'Crimson Text', serif;
+	font-size: 16px;
+	/*line-height: 1.5em;*/
+
+}
+
+/*header{
+	font-family: 'Crimson Text', serif;
+}*/
+
+.container{
+	width: 80%;
+	margin: auto;	
+	overflow: hidden;
+}
+
+
+h1,h4,h5,h6,p,i {
+	margin: 0%;
+	padding: 2%;
+	
+}
+
+h1{
+
+	padding-bottom: 0%;
+}
+
+h3{	
+	margin: 0%;
+	padding: 0% 0% 0% 2%;
+	color: #427d72;
+}
+
+h2{
+	color: #449399;
+}
+
+.margin{
+	margin: 20%;
+}
+#avatar img{
+	max-height: 90%;
+	float: right;
+	box-sizing: border-box;
+	
+	width: 40%;
+	display: flex;
+	border:5px solid #449399;
+	border-radius: 100px;
+	margin:10% 15% 10% 0%;
+	/*height: 100%;*/
+	/*position: absolute;*/
+}
+.resume{
+	background-color: #313c4e;
+	color: #FFFFFF;
+	display: flex;
+}
+
+#title p{
+	margin-top: 3%;
+}
+
+#upperHeader p{
+	/*background-color: #313c4e;
+	color: #FFFFFF;*/
+	/*float: left;*/
+/*	box-sizing: border-box;*/
+	display: flex; 
+	/*position: relative; */
+}
+
+.socialSites{
+	color: #ffffff;	
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	font-weight: bold;
+}	
+
+#title{
+	float: left;
+	width: 70%;
+	box-sizing: border-box;
+	margin-bottom: 2%;
+}
+
+#avatar{
+	float: right;
+	width: 30%;
+	box-sizing: border-box;
+}
+
+#lowerHeader .lowerHeaderElements{
+	text-align: center;
+	float: left;
+	width: 25%;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+
+#lowerHeader{
+	background-color: #222a33;
+	color: #ffffff;
+	/*width: 80%;  */
+	/*margin: auto;	*/
+	overflow: hidden;
+	padding: 1%;
+	/*margin-top:0%;*/
+
+	/*border-top: 4px solid #F7E01E;*/
+	/*border-top-color: ;*/
+}
+
+.skills span {
+	background-color: #989da6;
+	color: #ffffff;
+	margin: 0.5%!important;
+	text-align: center;
+	display: inline-block;
+	padding: 1.5%;
+	border-radius: 5px;
+}
+
+.interest{
+	/*background-color: #989da6;*/
+	border: 2px #989da6 solid;
+	color: #ffffff;
+	
+	margin: 0.5%!important;
+	text-align: center;
+	display: inline-block;
+	padding: 1.5%;
+	border-radius: 5px;
+}
+section#leftSide{
+	float: left;
+	width: 30%;
+	box-sizing: border-box;
+	/*display: inline;*/
+}
+
+.yearPassing{
+	float: left;
+	width: 90%
+	/*font-size:1.6em;*/
+	/*margin-bottom: 2%;*/
+}
+
+.grade{
+	float: right;
+	width: 10%;
+	/*margin-bottom: 2%;*/
+
+}
+
+.yearAndGrade{
+	margin-bottom: 10%;	
+	color: #449399;
+	/*font-weight: bold;*/
+}
+
+.movingRight{
+	margin-bottom: 10%;	
+}
+
+.movingRight span{
+	margin: 0%;
+	padding: 2%;
+}
+.yearAndGrade h6{
+	font-size: 0.9em;
+	font-weight: normal;
+}
+
+.leftEdu h4{
+	font-size: 1.1em;
+	
+}
+
+.leftEdu h5{
+	font-size: 1em;
+}
+aside{
+	width: 80%;
+	margin: auto;	
+	overflow: hidden;
+}
+
+aside#sidebar{
+	float: right;
+	width: 50%;
+	box-sizing: border-box;	
+}
+
+footer{
+	background-color: #313c4e;
+	color: #ffffff;
+	text-align: center;
+	padding: 1%;
+	width: 80%;   
+	margin: auto;
+	margin-top: 3%;	
+	overflow: hidden;
+}
+
+@media only screen and (max-width: 414px){
+	
+	#avatar img{
+		margin: 0% 25% 10% 25%;
+		width: 50%;
+	}
+
+	header p{
+		/*margin: 10%;
+		margin-left: 3%;
+		margin-bottom: 0%;*/
+		width: 100%;
+		text-align: center;
+
+		/*padding: 5%;*/
+	}
+	
+	#title{
+		margin: 10%;
+		margin-left: 3%;
+	}
+	
+	#title p{
+		padding-left: 0%;
+	}
+
+	h1{
+		font-size: 1.7em;
+	}
+	
+	aside#sidebar, #lowerHeader .lowerHeaderElements, #title, #avatar,section#leftSide,.yearPassing, .grade{
+		float: none;
+		width: 100%;
+		text-align: center;
+	}	
+}
+
+/*responsive for ipad*/
+
+@media only screen and (max-width: 768px){
+	
+	#avatar img{
+		/*margin: 0% 25% 10% 25%;
+		width: 0%;
+		
+		background-position:center;
+		
+		border-radius: 200px;*/
+		display: none;
+	}
+
+	header p{
+		/*margin: 10%;
+		margin-left: 3%;
+		margin-bottom: 0%;*/
+		width: 100%;
+		text-align: center;
+
+		/*padding: 5%;*/
+	}
+	
+	#title{
+		margin: 10%;
+		margin-left: 3%;
+	}
+	
+	#title p{
+		padding-left: 0%;
+	}
+
+	h1{
+		font-size: 1.7em;
+	}
+	
+	aside#sidebar, #lowerHeader .lowerHeaderElements, #title, #avatar,section#leftSide,.yearPassing, .grade{
+		float: none;
+		width: 100%;
+		text-align: center;
+	}	
+}
+
+
+/*for ipad pro*/
+
+@media only screen and (max-width: 1024px){
+	
+	#avatar img{
+		margin: 20% 20% 10% 25%;
+		width: 50%;
+		
+		
+		
+	}
+
+	
+}
