@@ -85,6 +85,10 @@ a{
 	color: black;
 }
 
+.drama{
+	color: #449399;
+}
+
 a:hover{
 	font-weight: bold;
 }	
@@ -124,6 +128,7 @@ a:hover{
 }
 
 .skills span {
+	
 	background-color: #989da6;
 	color: #ffffff;
 	margin: 0.5%!important;
@@ -171,6 +176,21 @@ section#leftSide{
 	/*font-weight: bold;*/
 }
 
+.references{
+	margin-bottom: 5%;
+	padding-left: 0%;	
+	color: #449399;
+	font-size: 1.2em;
+	/*font-weight: bold;*/
+}
+
+.references h6{
+	padding: 0%;
+}
+
+#reference a:hover{
+	color: #449399;
+}
 .movingRight{
 	margin-bottom: 10%;	
 }
